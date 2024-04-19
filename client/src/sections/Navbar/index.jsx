@@ -7,9 +7,10 @@ const Navbar = () =>{
               <div>
                 <FontAwesomeIcon className='mr-2 text-priTitle' icon={faArrowRight}/>
                 About
-                </div>
+                </div> 
               <div>Experience</div>
               <div>Project</div>
+              <div>Competition</div>
         </div>
     )
 }
