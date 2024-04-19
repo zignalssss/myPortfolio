@@ -1,15 +1,17 @@
 import About from "../About";
+import Experience from "../Experience";
 
 const Rightsection = () => {
     return (
-        <div className="grid gap-y-4">
+        <div className="grid gap-y-36 px-5">
             <About/>
-            <div className='mb-96'>Exp</div>
-            <div className='mb-96'>Exp</div>
-            <div className='mb-96'>Exp</div>
-            <div className='mb-96'>Exp</div>
-            <div className='mb-96'>Exp</div>
-            <div className='mb-96'>Exp</div>
+            <Experience/>
+            <div className=''>Exp</div>
+            <div className=''>Exp</div>
+            <div className=''>Exp</div>
+            <div className=''>Exp</div>
+            <div className=''>Exp</div>
+            <div className=''>Exp</div>
         </div>
     )
 }
