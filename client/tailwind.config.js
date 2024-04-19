@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors:{
-        priTitle:"#929AA6",
+        priTitle:"#99B1BF",
         priContent:"#FFFFFF",
         priSubContent:"#BFBFBF",
         priBase:"#BFBFBF",
