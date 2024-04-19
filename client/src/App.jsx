@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import {Link} from "react-router-dom"
 import './App.css'
 
 function App() {
@@ -25,7 +26,11 @@ function App() {
                 </a>
               </div>
             </div>
-            <div>Nav</div>
+            <div className='flex flex-col'>
+              <div>About</div>
+              <div>Experience</div>
+              <div>Project</div>
+            </div>
             <div className='flex items-end gap-4 text-2xl '>
                   {/* <a href='https://github.com/zignalssss' target='_blank'></a>
               <a href='https://www.instagram.com/emlnbmfsc3nzdqo_/' target='_blank'></a>
