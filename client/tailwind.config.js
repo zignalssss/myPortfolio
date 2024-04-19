@@ -9,7 +9,7 @@ export default {
       colors:{
         priTitle:"#99B1BF",
         priContent:"#FFFFFF",
-        priSubContent:"#BFBFBF",
+        priSubContent:"#404040",
         priBase:"#BFBFBF",
         priAccent:"#FFFFFF",
         priBG:"#252626"
