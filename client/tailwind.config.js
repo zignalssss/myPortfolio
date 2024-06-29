@@ -15,6 +15,7 @@ export default {
         priBG:"#252626"
       },
       fontFamily: {
+        kanit :["Kanit", "sans-serif"],
         inter: ['Inter', 'sans-serif'],
       },
       animation: {

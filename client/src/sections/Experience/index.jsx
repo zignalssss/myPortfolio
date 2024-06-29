@@ -31,7 +31,7 @@ const Experience = () => {
     return (
         <div className="" id="Project-section">
             <span className="text-priAccent font-medium">Project</span>
-            <div className="grid grid-cols-[30%_70%] bg-[#525759] px-2 py-6 rounded-md">
+            <div className=" font-kanit grid grid-cols-[30%_70%] bg-[#525759] px-2 py-6 rounded-md">
                 <div>
                     <div>
                         <span className="text-sm">2022-2023</span>
@@ -93,8 +93,8 @@ const Experience = () => {
                         <FaGithub />
                         <FiExternalLink />
                     </div>
-                    <div className="text-sm">The "Online Course Project" is designed to create an efficient online learning platform that offers a rich and effective learning experience for everyone looking to develop themselves through online education. This project focuses on creating a user-friendly and efficient learning space using cutting-edge technology, allowing learners to access lessons anytime and anywhere they want.</div>
-                    <div className="flex gap-4 text-sm">
+                    <div className="text-sm ">The "Online Course Project" is designed to create an efficient online learning platform that offers a rich and effective learning experience for everyone looking to develop themselves through online education. This project focuses on creating a user-friendly and efficient learning space using cutting-edge technology, allowing learners to access lessons anytime and anywhere they want.</div>
+                    <div className="grid grid-cols-3 md:flex gap-4 text-sm">
                         <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">NextJS</div>
                         <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">Tailwind</div>
                         <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">Prisma</div>

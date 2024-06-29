@@ -9,11 +9,11 @@ const Contact = () =>{
             <a href='https://www.instagram.com/emlnbmfsc3nzdqo_/' target='_blank'></a>
             <a href='https://www.linkedin.com/in/wiritipon-thapkhan-11452b2a8/' target='_blank'></a>
             <a href='https://leetcode.com/zignalssss/' target='_blank'></a> */}
-            <span className='transition-all duration-150 hover:text-priTitle hover:scale-125'><FaGithub/></span>
+            <a href="https://github.com/zignalssss" target="_blank"><span className='transition-all duration-150 hover:text-priTitle hover:scale-125'><FaGithub/></span></a>
             <span className='transition-all duration-150 hover:text-priTitle hover:scale-125'><FaInstagram/></span>
             <span className='transition-all duration-150 hover:text-priTitle hover:scale-125'><FaLinkedin/></span>
             <span className='transition-all duration-150 hover:text-priTitle hover:scale-125'><SiLeetcode/></span>
-        </div>
+        </div>                   
     )
 }
 export default Contact;
