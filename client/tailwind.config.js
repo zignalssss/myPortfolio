@@ -13,7 +13,18 @@ export default {
         priBase:"#BFBFBF",
         priAccent:"#FFFFFF",
         priBG:"#252626"
-      }
+      },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
+      animation: {
+          'gradient': 'gradient 8s linear infinite',
+      },
+      keyframes: {
+          'gradient': {
+              to: { 'background-position': '200% center' },
+          }
+      }     
     },
   },
   plugins: [],
