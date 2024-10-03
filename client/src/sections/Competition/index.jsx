@@ -4,8 +4,49 @@ const Competition = () => {
   return (
     <div className="" id="Competition-section">
             <span className="text-priAccent font-medium">Competition</span>
-            
-            
+            <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md  font-kanit">
+                <div>
+                    <div>
+                        <span className="text-sm">2024</span>
+                    </div>
+                    <div>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/Capture.PNG?alt=media&token=92f5ad39-5c1d-4419-b88f-db42561ceb6f" className="w-5/6 rounded-md border-2 border-priSubContent" />
+                    </div>
+                </div>
+                <div className="grid gap-y-4">
+                    <div className="text-priAccent">ICPC Thailand National Competition 2024</div>
+                    <div className="flex gap-4 text-xl">
+                
+                    </div>
+                    <div className="text-sm">The International Collegiate Programming Contest is a prestigious algorithmic competition for college students. Teams of three from universities solve real-world problems, enhancing collaboration, creativity, and pressure management. It is the oldest, largest, and most renowned programming contest globally.</div>
+                    <div className="flex gap-4 text-sm">
+                        <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">Competitive Programming</div>
+                        <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">Algorithm</div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md  font-kanit">
+                <div>
+                    <div>
+                        <span className="text-sm">2024</span>
+                    </div>
+                    <div>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/Capture.PNG?alt=media&token=92f5ad39-5c1d-4419-b88f-db42561ceb6f" className="w-5/6 rounded-md border-2 border-priSubContent" />
+                    </div>
+                </div>
+                <div className="grid gap-y-4">
+                    <div className="text-priAccent">Meta Hacker Cup 2024</div>
+                    <div className="flex gap-4 text-xl">
+                
+                    </div>
+                    <div className="text-sm">The Meta Hacker Cup is a premier global programming competition organized by Meta, offering software developers and computer science enthusiasts an opportunity to showcase their problem-solving skills and compete against the best in the world.</div>
+                    <div className="flex gap-4 text-sm">
+                        <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">Competitive Programming</div>
+                        <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">Algorithm</div>
+                    </div>
+                </div>
+            </div>
 
             <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md  font-kanit">
                 <div>
@@ -70,6 +111,7 @@ const Competition = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
   )
 }
