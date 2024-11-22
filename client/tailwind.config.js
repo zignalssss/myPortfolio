@@ -13,9 +13,23 @@ export default {
         priBase:"#BFBFBF",
         priAccent:"#FFFFFF",
         priBG:"#252626"
-      }
+      },
+      fontFamily: {
+        kanit :["Kanit", "sans-serif"],
+        inter: ['Inter', 'sans-serif'],
+      },
+      animation: {
+          'gradient': 'gradient 8s linear infinite',
+      },
+      keyframes: {
+          'gradient': {
+              to: { 'background-position': '200% center' },
+          }
+      }     
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }
 
