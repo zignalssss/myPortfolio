@@ -31,7 +31,7 @@ const Experience = () => {
     return (
         <div className="" id="Project-section">
             <span className="text-priAccent font-medium">Project</span>
-            <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md">
+            <div className=" group grid grid-cols-[30%_70%] transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md">
                 <div>
                     <div>
                         <span className="text-sm">2022-2023</span>
@@ -55,7 +55,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-            <div className=" font-kanit grid grid-cols-[30%_70%] bg-[#525759] px-2 py-6 rounded-md">
+            <div className=" group  transition-all duration-100 font-kanit grid grid-cols-[30%_70%] hover:bg-[#525759] px-2 py-6 rounded-md">
                 <div>
                     <div>
                         <span className="text-sm">2022-2023</span>
@@ -79,7 +79,7 @@ const Experience = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md">
+            <div className=" group  transition-all duration-100 grid grid-cols-[30%_70%] hover:bg-[#525759] px-2 py-6 rounded-md">
                 <div>
                     <div>
                         <span className="text-sm">2022-2023</span>

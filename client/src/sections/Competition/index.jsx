@@ -3,18 +3,33 @@ import React from 'react'
 const Competition = () => {
   return (
     <div className="" id="Competition-section">
+            {/* Modal Section */}
+
+            <input type="checkbox" id="my_modal_7" className="modal-toggle" />
+                <div className="modal" role="dialog">
+                    <div className="modal-box bg-priBG overflow-auto">
+                        <h3 className="text-lg font-bold mb-5">ICPC Thailand National Competition 2024 </h3>
+
+                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
+                        <p className="py-4">This modal works with a hidden checkbox!</p>
+                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458330063_1381142129956470_5196922085292530174_n.jpg?alt=media&token=3c011975-88d6-4590-af6d-fc78b8cd1aa5" alt="" />
+                        <p className="py-4">This modal works with a hidden checkbox!</p>
+                    </div>
+                <label className="modal-backdrop" htmlFor="my_modal_7">Close</label>
+            </div>
+
             <span className="text-priAccent font-medium">Competition</span>
-            <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md  font-kanit">
+            <label htmlFor="my_modal_7" className="grid grid-cols-[30%_70%]  group  transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md  font-kanit">
                 <div>
                     <div>
                         <span className="text-sm">2024</span>
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/Capture.PNG?alt=media&token=92f5ad39-5c1d-4419-b88f-db42561ceb6f" className="w-5/6 rounded-md border-2 border-priSubContent" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" className="w-5/6 rounded-md border-2 border-priSubContent" />
                     </div>
                 </div>
                 <div className="grid gap-y-4">
-                    <div className="text-priAccent">ICPC Thailand National Competition 2024</div>
+                    <div className="text-priAccent">ICPC Thailand National Competition 2024 </div>
                     <div className="flex gap-4 text-xl">
                 
                     </div>
@@ -24,9 +39,9 @@ const Competition = () => {
                         <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">Algorithm</div>
                     </div>
                 </div>
-            </div>
-
-            <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md  font-kanit">
+            </label>
+            
+            <div className="grid grid-cols-[30%_70%]  group  transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md  font-kanit">
                 <div>
                     <div>
                         <span className="text-sm">2024</span>
@@ -48,7 +63,7 @@ const Competition = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md  font-kanit">
+            <div className="grid grid-cols-[30%_70%]  group  transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md  font-kanit">
                 <div>
                     <div>
                         <span className="text-sm">2022-2023</span>
@@ -69,7 +84,7 @@ const Competition = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md  font-kanit">
+            <div className="grid grid-cols-[30%_70%]  group  transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md  font-kanit">
                 <div>
                     <div>
                         <span className="text-sm">2022-2023</span>
@@ -90,7 +105,7 @@ const Competition = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-[30%_70%]  px-2 py-6 rounded-md  font-kanit">
+            <div className="grid grid-cols-[30%_70%]  group  transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md  font-kanit">
                 <div>
                     <div>
                         <span className="text-sm">2022</span>
