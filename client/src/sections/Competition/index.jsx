@@ -47,7 +47,7 @@ const Competition = () => {
                         <span className="text-sm">2024</span>
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/Capture.PNG?alt=media&token=92f5ad39-5c1d-4419-b88f-db42561ceb6f" className="w-5/6 rounded-md border-2 border-priSubContent" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/Capture.PNG?alt=media&token=27ad76c0-b777-4e71-8f81-57a465803fcf" className="w-5/6 rounded-md border-2 border-priSubContent" />
                     </div>
                 </div>
                 <div className="grid gap-y-4">
@@ -87,7 +87,7 @@ const Competition = () => {
             <div className="grid grid-cols-[30%_70%]  group  transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md  font-kanit">
                 <div>
                     <div>
-                        <span className="text-sm">2022-2023</span>
+                        <span className="text-sm">2023</span>
                     </div>
                     <div>
                         <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/Wiritipon%20Thapkhan.jpg?alt=media&token=bee259aa-9f6b-4444-bd9f-39f08b3922fd" className="w-5/6 rounded-md border-2 border-priSubContent" />
@@ -111,7 +111,7 @@ const Competition = () => {
                         <span className="text-sm">2022</span>
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/Capture.PNG?alt=media&token=92f5ad39-5c1d-4419-b88f-db42561ceb6f" className="w-5/6 rounded-md border-2 border-priSubContent" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/KPMG.PNG?alt=media&token=d260f89e-32a3-41cc-8869-8dcddc7a200f" className="w-5/6 rounded-md border-2 border-priSubContent" />
                     </div>
                 </div>
                 <div className="grid gap-y-4">
