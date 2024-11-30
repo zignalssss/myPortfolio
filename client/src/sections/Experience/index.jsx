@@ -43,8 +43,7 @@ const Experience = () => {
                 <div className="grid gap-y-4">
                     <div className="text-priAccent">CyberGeekClub Website</div>
                     <div className="flex gap-4 text-xl">
-                        <FaGithub />
-                        <FiExternalLink />
+                        <a className ="transition-all duration-150 hover:text-priTitle hover:scale-125 " target="_blank" href="https://cybergeekclub.vercel.app/"><FiExternalLink /></a>
                     </div>
                     <div className="text-sm ">The "Online Course Project" is designed to create an efficient online learning platform that offers a rich and effective learning experience for everyone looking to develop themselves through online education. This project focuses on creating a user-friendly and efficient learning space using cutting-edge technology, allowing learners to access lessons anytime and anywhere they want.</div>
                     <div className="grid grid-cols-3 md:flex gap-4 text-sm">
@@ -67,8 +66,8 @@ const Experience = () => {
                 <div className="grid gap-y-4">
                     <div className="text-priAccent">Online Course Website</div>
                     <div className="flex gap-4 text-xl">
-                        <FaGithub />
-                        <FiExternalLink />
+                        <a className ="transition-all duration-150 hover:text-priTitle hover:scale-125 " target="_blank" href="https://github.com/zignalssss/finalproject-appdev"><FaGithub /></a>
+                        <a className ="transition-all duration-150 hover:text-priTitle hover:scale-125 " target="_blank" href="https://nextfuture-onlinecourse.vercel.app/"><FiExternalLink /></a>
                     </div>
                     <div className="text-sm">The "Online Course Project" is designed to create an efficient online learning platform that offers a rich and effective learning experience for everyone looking to develop themselves through online education. This project focuses on creating a user-friendly and efficient learning space using cutting-edge technology, allowing learners to access lessons anytime and anywhere they want.</div>
                     <div className="flex gap-4 text-sm">
@@ -91,8 +90,8 @@ const Experience = () => {
                 <div className="grid gap-y-4">
                     <div className="text-priAccent">Personal Protfolio V1</div>
                     <div className="flex gap-4 text-xl">
-                        <FaGithub />
-                        <FiExternalLink />
+                        <a className ="transition-all duration-150 hover:text-priTitle hover:scale-125 " target="_blank" href="https://github.com/zignalssss/ReactPortfolio"><FaGithub /></a>
+                        <a className ="transition-all duration-150 hover:text-priTitle hover:scale-125 " target="_blank" href="https://zignalssss.github.io/ReactPortfolio/?fbclid=PAZXh0bgNhZW0CMTEAAaaYScOx-ActwkI9o0EZ_SUNeteMtlNEKApFXsSojcIxlFWLMaqXRKsL2Ys_aem_6LOAdegeVh9yMJkUEFVg4g"><FiExternalLink /></a>
                     </div>
                     <div className="text-sm">The "Online Course Project" is designed to create an efficient online learning platform that offers a rich and effective learning experience for everyone looking to develop themselves through online education. This project focuses on creating a user-friendly and efficient learning space using cutting-edge technology, allowing learners to access lessons anytime and anywhere they want.</div>
                     <div className="flex gap-4 text-sm">
