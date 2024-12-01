@@ -29,12 +29,80 @@ const Experience = () => {
     // ]
 
     return (
+        
         <div className="" id="Project-section">
+             <input type="checkbox" id="my_modal_11" className="modal-toggle" />
+                <div className="modal" role="dialog">
+                    <div className="modal-box bg-priBG overflow-auto">
+                        <h3 className="text-lg font-bold mb-5">ICPC Thailand National Competition 2024 </h3>
+                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
+                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458330063_1381142129956470_5196922085292530174_n.jpg?alt=media&token=3c011975-88d6-4590-af6d-fc78b8cd1aa5" alt="" />
+
+                    </div>
+                <label className="modal-backdrop" htmlFor="my_modal_11">Close</label>
+            </div>
+
+            <input type="checkbox" id="my_modal_12" className="modal-toggle" />
+                <div className="modal" role="dialog">
+                    <div className="modal-box bg-priBG overflow-auto">
+                        <h3 className="text-lg font-bold mb-5">ICPC Thailand National Competition 2024 </h3>
+
+                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
+                        
+                    </div>
+                <label className="modal-backdrop" htmlFor="my_modal_12">Close</label>
+            </div>
+
+            <input type="checkbox" id="my_modal_13" className="modal-toggle" />
+                <div className="modal" role="dialog">
+                    <div className="modal-box bg-priBG overflow-auto">
+                        <h3 className="text-lg font-bold mb-5">ICPC Thailand National Competition 2024 </h3>
+
+                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
+                        
+                    </div>
+                <label className="modal-backdrop" htmlFor="my_modal_13">Close</label>
+            </div>
+            <input type="checkbox" id="my_modal_14" className="modal-toggle" />
+                <div className="modal" role="dialog">
+                    <div className="modal-box bg-priBG overflow-auto">
+                        <h3 className="text-lg font-bold mb-5">ICPC Thailand National Competition 2024 </h3>
+
+                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
+                        
+                    </div>
+                <label className="modal-backdrop" htmlFor="my_modal_14">Close</label>
+            </div>
+
             <span className="text-priAccent font-medium">Project</span>
-            <div className=" group grid grid-cols-[30%_70%] transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md">
+
+            <label htmlFor="my_modal_11" className=" group grid grid-cols-[30%_70%] transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md">
                 <div>
                     <div>
-                        <span className="text-sm">2022-2023</span>
+                        <span className="text-sm">2024</span>
+                    </div>
+                    <div>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/cyberarena.PNG?alt=media&token=6858211e-c525-4aa4-83f6-781936fa2377" className="w-5/6 rounded-md border-2 border-priSubContent" />
+                    </div>
+                </div>
+                <div className="grid gap-y-4">
+                    <div className="text-priAccent">CyberArena</div>
+                    <div className="flex gap-4 text-xl">
+                        <a className ="transition-all duration-150 hover:text-priTitle hover:scale-125 " target="_blank" href="https://cyberarena.vercel.app/"><FiExternalLink /></a>
+                    </div>
+                    <div className="text-sm ">It's a card game about CyberSecurity designed for training on various real-world cyber threats.  using NextJS </div>
+                    <div className="grid grid-cols-3 md:flex gap-4 text-sm">
+                        <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">NextJS</div>
+                        <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">Tailwind</div>
+                        <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">MongoDB</div>
+                    </div>
+                </div>
+            </label>
+
+            <label htmlFor="my_modal_12" className=" group grid grid-cols-[30%_70%] transition-all duration-100 hover:bg-[#525759] px-2 py-6 rounded-md">
+                <div>
+                    <div>
+                        <span className="text-sm">2024</span>
                     </div>
                     <div>
                         <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/cygergeekweb.PNG?alt=media&token=f1d09b80-be86-4837-bb42-c808756b97f0" className="w-5/6 rounded-md border-2 border-priSubContent" />
@@ -53,11 +121,11 @@ const Experience = () => {
                         <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">MySQL</div>
                     </div>
                 </div>
-            </div>
-            <div className=" group  transition-all duration-100 font-kanit grid grid-cols-[30%_70%] hover:bg-[#525759] px-2 py-6 rounded-md">
+            </label>
+            <label htmlFor="my_modal_13" className=" group  transition-all duration-100 font-kanit grid grid-cols-[30%_70%] hover:bg-[#525759] px-2 py-6 rounded-md">
                 <div>
                     <div>
-                        <span className="text-sm">2022-2023</span>
+                        <span className="text-sm">2024</span>
                     </div>
                     <div>
                         <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/Screenshot%202024-04-20%20014354.png?alt=media&token=d6a048f9-c6dc-4045-9cbf-a1382341674e" className="w-5/6 rounded-md border-2 border-priSubContent" />
@@ -76,12 +144,12 @@ const Experience = () => {
                         <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">MongoDB</div>
                     </div>
                 </div>
-            </div>
+            </label>
 
-            <div className=" group  transition-all duration-100 grid grid-cols-[30%_70%] hover:bg-[#525759] px-2 py-6 rounded-md">
+            <label htmlFor="my_modal_14" className=" group  transition-all duration-100 grid grid-cols-[30%_70%] hover:bg-[#525759] px-2 py-6 rounded-md">
                 <div>
                     <div>
-                        <span className="text-sm">2022-2023</span>
+                        <span className="text-sm">2023</span>
                     </div>
                     <div>
                         <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/portfirstver.png?alt=media&token=f6ab7a48-9153-450d-87ab-06ee14b5bfd0" className="w-5/6 rounded-md border-2 border-priSubContent" />
@@ -99,10 +167,7 @@ const Experience = () => {
                         <div className="bg-priSubContent px-2 py-1 rounded-md hover:text-priTitle">React</div>
                     </div>
                 </div>
-            </div>
-
-            
-
+            </label>
         </div>
     )
 }
