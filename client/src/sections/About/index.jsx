@@ -31,7 +31,7 @@ const About = () => {
                 <img className = "bg-gray-100 rounded-lg p-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" />
                 <span className="font-semibold text-sm mt-1">Prisma</span>
                 <img className="bg-[#001d2a] rounded-lg p-1 border border-white/15" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-                <span className="font-semibold text-sm mt-1">MongoDBL</span>  
+                <span className="font-semibold text-sm mt-1">MongoDB</span>  
             </div>
         </div>
 
