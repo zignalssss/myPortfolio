@@ -34,9 +34,8 @@ const Experience = () => {
              <input type="checkbox" id="my_modal_11" className="modal-toggle" />
                 <div className="modal" role="dialog">
                     <div className="modal-box bg-priBG overflow-auto">
-                        <h3 className="text-lg font-bold mb-5">ICPC Thailand National Competition 2024 </h3>
-                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
-                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458330063_1381142129956470_5196922085292530174_n.jpg?alt=media&token=3c011975-88d6-4590-af6d-fc78b8cd1aa5" alt="" />
+                        <h3 className="text-lg font-bold mb-5">CyberArena</h3>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/cyberarena.PNG?alt=media&token=6858211e-c525-4aa4-83f6-781936fa2377" className="rounded-md" />
 
                     </div>
                 <label className="modal-backdrop" htmlFor="my_modal_11">Close</label>
@@ -45,9 +44,9 @@ const Experience = () => {
             <input type="checkbox" id="my_modal_12" className="modal-toggle" />
                 <div className="modal" role="dialog">
                     <div className="modal-box bg-priBG overflow-auto">
-                        <h3 className="text-lg font-bold mb-5">ICPC Thailand National Competition 2024 </h3>
+                        <h3 className="text-lg font-bold mb-5">CyberGeekClub Website </h3>
 
-                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/cygergeekweb.PNG?alt=media&token=f1d09b80-be86-4837-bb42-c808756b97f0" className="rounded-md" />
                         
                     </div>
                 <label className="modal-backdrop" htmlFor="my_modal_12">Close</label>
@@ -56,9 +55,9 @@ const Experience = () => {
             <input type="checkbox" id="my_modal_13" className="modal-toggle" />
                 <div className="modal" role="dialog">
                     <div className="modal-box bg-priBG overflow-auto">
-                        <h3 className="text-lg font-bold mb-5">ICPC Thailand National Competition 2024 </h3>
+                        <h3 className="text-lg font-bold mb-5">Next Future </h3>
 
-                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/Screenshot%202024-04-20%20014354.png?alt=media&token=d6a048f9-c6dc-4045-9cbf-a1382341674e" className="rounded-md" />
                         
                     </div>
                 <label className="modal-backdrop" htmlFor="my_modal_13">Close</label>
@@ -66,9 +65,9 @@ const Experience = () => {
             <input type="checkbox" id="my_modal_14" className="modal-toggle" />
                 <div className="modal" role="dialog">
                     <div className="modal-box bg-priBG overflow-auto">
-                        <h3 className="text-lg font-bold mb-5">ICPC Thailand National Competition 2024 </h3>
+                        <h3 className="text-lg font-bold mb-5">Personal Portfolio V1 </h3>
 
-                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/portfirstver.png?alt=media&token=f6ab7a48-9153-450d-87ab-06ee14b5bfd0" className="rounded-md" />
                         
                     </div>
                 <label className="modal-backdrop" htmlFor="my_modal_14">Close</label>
@@ -82,7 +81,7 @@ const Experience = () => {
                         <span className="text-sm">2024</span>
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/cyberarena.PNG?alt=media&token=6858211e-c525-4aa4-83f6-781936fa2377" className="w-5/6 rounded-md border-2 border-priSubContent" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/portfirstver.png?alt=media&token=f6ab7a48-9153-450d-87ab-06ee14b5bfd0" className="w-5/6 rounded-md border-2 border-priSubContent" />
                     </div>
                 </div>
                 <div className="grid gap-y-4">
@@ -132,7 +131,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className="grid gap-y-4">
-                    <div className="text-priAccent">Online Course Website</div>
+                    <div className="text-priAccent">Next Future</div>
                     <div className="flex gap-4 text-xl">
                         <a className ="transition-all duration-150 hover:text-priTitle hover:scale-125 " target="_blank" href="https://github.com/zignalssss/finalproject-appdev"><FaGithub /></a>
                         <a className ="transition-all duration-150 hover:text-priTitle hover:scale-125 " target="_blank" href="https://nextfuture-onlinecourse.vercel.app/"><FiExternalLink /></a>
