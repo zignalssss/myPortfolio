@@ -12,10 +12,10 @@ const Contact = () =>{
             <a href='https://www.linkedin.com/in/wiritipon-thapkhan-11452b2a8/' target='_blank'></a>
             <a href='https://leetcode.com/zignalssss/' target='_blank'></a> */}
             <a className=" transition-all duration-150 hover:text-priTitle hover:scale-125" href="https://github.com/zignalssss" target="_blank"><FaGithub/></a>
-            <span className='transition-all duration-150 hover:text-priTitle hover:scale-125'><FaInstagram/></span>
-            <span className='transition-all duration-150 hover:text-priTitle hover:scale-125'><FaLinkedin/></span>
-            <span className='transition-all duration-150 hover:text-priTitle hover:scale-125'><SiLeetcode/></span>
-            <span className='transition-all duration-150 hover:text-priTitle hover:scale-125'>< SiCodeforces/></span>
+            <a className=" transition-all duration-150 hover:text-priTitle hover:scale-125" href="https://www.instagram.com/emlnbmfsc3nzdqo_/" target="_blank"><FaInstagram/></a>
+            <a className=" transition-all duration-150 hover:text-priTitle hover:scale-125" href="https://www.linkedin.com/in/wiritipon-thapkhan-11452b2a8/" target="_blank"><FaLinkedin/></a>
+            <a className=" transition-all duration-150 hover:text-priTitle hover:scale-125" href="https://leetcode.com/u/zignalssss/" target="_blank"><SiLeetcode/></a>
+            <a className=" transition-all duration-150 hover:text-priTitle hover:scale-125" href="https://codeforces.com/profile/zje" target="_blank">< SiCodeforces/></a>
         </div>                   
     )
 }

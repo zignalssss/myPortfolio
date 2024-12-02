@@ -13,6 +13,8 @@ const Competition = () => {
                         <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458187894_4076758139277157_1567578701933715353_n.jpg?alt=media&token=b3f25ef0-a3ba-4878-9ee6-1f8cb801d426" alt="" />
                         <p className="py-4"></p>
                         <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/458330063_1381142129956470_5196922085292530174_n.jpg?alt=media&token=3c011975-88d6-4590-af6d-fc78b8cd1aa5" alt="" />
+                        <p className="py-4"></p>
+                        <img className="rounded-md" src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/456897378_547424824525218_1484020561988834172_n.jpg?alt=media&token=5ea6672c-0811-4481-811c-23b26f9e6ebc" alt="" />
                     </div>
                 <label className="modal-backdrop" htmlFor="my_modal_1">Close</label>
             </div>

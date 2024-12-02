@@ -81,7 +81,7 @@ const Experience = () => {
                         <span className="text-sm">2024</span>
                     </div>
                     <div>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/portfirstver.png?alt=media&token=f6ab7a48-9153-450d-87ab-06ee14b5bfd0" className="w-5/6 rounded-md border-2 border-priSubContent" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/cyberarena.PNG?alt=media&token=6858211e-c525-4aa4-83f6-781936fa2377" className="w-5/6 rounded-md border-2 border-priSubContent" />
                     </div>
                 </div>
                 <div className="grid gap-y-4">
