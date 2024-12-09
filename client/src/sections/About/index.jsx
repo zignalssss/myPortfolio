@@ -37,14 +37,14 @@ const About = () => {
                 <img className="bg-[#001d2a] rounded-lg p-1 border border-white/15" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
                 <span className="font-semibold text-sm mt-1">MongoDB</span>  
             </div>
-            {/* <div className="text-priAccent font-medium ">Other</div>
+            <div className="text-priAccent font-medium ">Other</div>
             <div className="flex w-8 h-8 space-x-2">
                
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" />       
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" />
+            {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" /> */}
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
           
-            </div> */}
+            </div>
         </div>
 
     )
