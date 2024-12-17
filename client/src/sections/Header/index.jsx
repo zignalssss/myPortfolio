@@ -9,7 +9,7 @@ const Header = () =>{
               <div className='text-priAccent font-semibold'>{data.title}</div>
               <div className='text-sm w-5/6'>{data.caption}</div>
               <div className='mt-4'>
-                <a target="_blank" href='https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/wiritiponResume.pdf?alt=media&token=f05acb1a-a5cf-47e7-acd4-6a5c5b2197dc'>
+                <a target="_blank" href='https://firebasestorage.googleapis.com/v0/b/portfolio-image-storage-e7a58.appspot.com/o/wiritiponResume.pdf?alt=media&token=8e5bc52e-9102-4e2f-89a8-e15e9538774c'>
                 <span className='rounded-md bg-priTitle text-black py-2 px-4'>
                   {data.btnText}
                   <span className='ml-2'><FontAwesomeIcon  className = 'animate-bounce' icon={faArrowUpFromBracket}/></span>
