@@ -27,11 +27,15 @@ const About = () => {
                 {/* <img className = "bg-gray-100 rounded-lg p-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" /> */}
                 <img className = "bg-gray-100 rounded-lg p-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" />
+
             </div>
             <div className="text-priAccent font-medium ">Database</div>
             <div className="flex w-8 h-8 space-x-2">
                 <img className = "bg-gray-100 rounded-lg p-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
                 <span className="font-semibold text-sm mt-1">MySQL</span>
+                <img className = "bg-gray-100 rounded-lg p-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg" />
+                <span className="font-semibold text-sm mt-1">PostgreSQL</span>
                 <img className = "bg-gray-100 rounded-lg p-1" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" />
                 <span className="font-semibold text-sm mt-1">Prisma</span>
                 <img className="bg-[#001d2a] rounded-lg p-1 border border-white/15" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
@@ -43,6 +47,8 @@ const About = () => {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" />       
             {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" /> */}
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" />
+
           
             </div>
         </div>
